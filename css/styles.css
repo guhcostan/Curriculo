@@ -33,6 +33,8 @@
 
 .lingLogo{
 	height: 300px;
+	display: block;
+	margin: 0 auto;
 }
 
 .lingLogo:hover .logo{
