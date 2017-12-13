@@ -14,7 +14,7 @@
       <script type="text/javascript" src="js/materialize.min.js"></script>
   		<header>
       <ul id="nav-small" class="top-nav fixed hide-on-large-only show-on-medium-and-down" style="background-color: white">
-        <li style="color: white;text-align: center"> <b>Curriculo-Gustavo Costa</b></li>
+        <li style="color: white;text-align: center"><img class="imgCaveira" style="width: 10%" src="css/img/skull.png"></li>
           
         </ul>
       <ul id="nav-mobile" class="side-nav fixed">
@@ -48,31 +48,44 @@
 			</ul>
   		</header>
   		<main>
-        <div class="parallax-container" style="height: 200px">
-                <div class="parallax"><img src="css/img/parallax1.jpg"></div>
-        </div>
-  			<div class="container">
-  				<div class="row">
-            <div class="col s12 m12 l12">
-              <div style="border-radius: 20px 20px;padding: 10px;border:5px solid #e5e8e9;box-shadow: 0px 0px 10px; background-image: url('css/img/background.png');" >
-                  <p style="text-align: center;"><--------------------------------------------------------------></p>
-                  <p style="text-align: center;"><b>Conhecimentos de programação</b></p>
-                  <p style="text-align: center;"><--------------------------------------------------------------></p>
-                <div class="informacaoBox">
-                  <p>IDEs : Eclipse, Visual Studio, Android Studio, Codeblocks </p>
-                  <p>Sistemas Operacionais : Windows XP, 7, 8, 10, Linux(Ubuntu) </p>
-                  <p>Linguagens : Java, C++, C# (básico) , C</p>
-                  <p>Bancos de Dados : FirebaseDatabase, SQLite </p>
-                  <p>IDEs : Eclipse, Visual Studio, Android Studio, Codeblocks </p>
-                  <p>Sistemas Operacionais : Windows XP, 7, 8, 10, Linux(Ubuntu) </p>
-                  <p>Linguagens : Java, C++, C# (básico) , C</p>
-                  <p>Bancos de Dados : FirebaseDatabase, SQLite </p>
-                </div>
-                <p style="text-align: center;"><--------------------------------------------------------------></p>
+        <div id="contatoDiv" class="hide-on-large-only show-on-medium-and-down">
+            <div class="parallax-container" style="height: 200px">
+                  <div class="parallax"><img class="parallaxImg" src="css/img/parallax1.jpg"></div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <ul style="border-radius: 20px 20px;padding: 10px;border:5px solid #e5e8e9;box-shadow: 0px 0px 10px; background-image: url('css/img/background.png');" >
+                  <li style=" padding: 10px;">
+                  <img id="imgFoto" src="css/img/foto.jpg">
+                </li>
+                <li class="dados">
+                  <p class="textoDados"><b>Nome: Gustavo Costa Neves</b></p>
+                  <p class="textoDados">04/07/1997</p>
+                  <p id="textoSobre"><b>Sobre: </b>Estudante do 5º periodo do curso Ciências da computação pela Universidade Federal de Lavras, apaixonado por programação e desenvolvimento.</p>
+                </li>
+                <li class="dados">
+                  <p class="textoDados">
+                    <b>Contato: (035)99155-7322</b>
+                  </p>
+                      <ul style="display: inline-flex; height: 60px">
+                        <a href="https://github.com/guhcostan" style="width: 20% ;padding: 0px;"><li><img id="imgGit" src="css/img/gitLogo.jpg" style="width: 100%;border-radius: 35px 35px"></li></a>
+                        <li><b style="margin: auto">@Guhcostan</b></li>
+                      </ul>
+                      <ul style="display: inline-flex; height: 60px">
+                        <a href="https://facebook.com/gustavo.costaneves" style="width:20%; padding: 6px;"><li><img id="imgFace" src="css/img/faceLogo.jpg" style="width: 100% ;border-radius: 35px 35px"></li></a>
+                        <li><b style="margin: auto">/gustavo.costaneves</b></li>
+                      </ul>
+                      <ul style="display: inline-flex; height: 60px">
+                        <a href="https://www.instagram.com/guhcostan/" style="width:20%;padding: 5px"><li><img id="imgFace" src="css/img/instaLogo.jpg" style="width: 100%;border-radius: 35px 35px"></li></a>
+                        <li><b style="margin: auto">@guhcostan</b></li>
+                      </ul>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-  			</div>
+        </div>
         <div class="parallax-container" style="height: 200px">
           <div class="parallax"><img src="css/img/parallax2.jpg"></div>
         </div>
@@ -173,13 +186,13 @@
             </div>
           </div>
         </div>
+        <div id="ultimo">
+        </div>
 	  	</main>	  
     <footer>
-      <div class="content hide-on-large-only show-on-medium-and-down" id="rodape2">
-        <div class="row">
-          <div class="col s3 m3 l3">
-            <img src="css/img/foto.jpg" style="width: 40%; border-radius: 30px 30px;">
-          </div>
+      <div class="content hide-on-large-only show-on-medium-and-down" >
+        <div class="row" id="rodape2">
+          <img class="imgCaveira" style="width: 10%; margin: 0 auto" src="css/img/skull2.png">
         </div>
       </div>
     </footer>
