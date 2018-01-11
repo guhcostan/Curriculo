@@ -127,3 +127,101 @@
 @media screen and (min-width: 1201px) {
 
 }
+
+
+#foto1{
+	width: 100%;
+	height: 300px;
+ 	position: relative;
+ 	line-height:0px;
+}
+#comentario1 {
+ 	 position:relative;
+ 	 text-align: center;
+	 padding:2px;
+	 line-height:20px;
+	 color:black;
+	 opacity: 0;
+
+	 -webkit-transition: all 300ms ease;
+	 -moz-transition: all 300ms ease;
+	 -ms-transition: all 300ms ease;
+	 -o-transition: all 300ms ease;
+	 transition: all 300ms ease;
+}
+
+#foto1:hover  #comentario1{
+      opacity: 1;
+}
+#foto2{
+	width: 100%;
+	height: 300px;
+ 	position: relative;
+ 	line-height:0px;
+}
+#comentario2 {
+ 	 position:relative;
+ 	 text-align: center;
+	 padding:2px;
+	 line-height:20px;
+	 color:black;
+	 opacity: 0;
+
+	 -webkit-transition: all 300ms ease;
+	 -moz-transition: all 300ms ease;
+	 -ms-transition: all 300ms ease;
+	 -o-transition: all 300ms ease;
+	 transition: all 300ms ease;
+}
+
+#foto2:hover  #comentario2{
+      opacity: 1;
+}
+#foto3{
+	width: 100%;
+	height: 300px;
+ 	position: relative;
+ 	line-height:0px;
+}
+#comentario3 {
+ 	 position:relative;
+ 	 text-align: center;
+	 padding:2px;
+	 line-height:20px;
+	 color:black;
+	 opacity: 0;
+
+	 -webkit-transition: all 300ms ease;
+	 -moz-transition: all 300ms ease;
+	 -ms-transition: all 300ms ease;
+	 -o-transition: all 300ms ease;
+	 transition: all 300ms ease;
+}
+
+#foto3:hover  #comentario3{
+      opacity: 1;
+}
+#foto4{
+	width: 100%;
+	height: 300px;
+ 	position: relative;
+ 	line-height:0px;
+}
+#comentario4 {
+ 	 position:relative;
+ 	 text-align: center;
+	 padding:2px;
+	 line-height:20px;
+	 color:black;
+	 opacity: 0;
+
+	 -webkit-transition: all 300ms ease;
+	 -moz-transition: all 300ms ease;
+	 -ms-transition: all 300ms ease;
+	 -o-transition: all 300ms ease;
+	 transition: all 300ms ease;
+}
+
+#foto4:hover  #comentario4{
+      opacity: 1;
+}
