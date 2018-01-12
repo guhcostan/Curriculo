@@ -10,6 +10,12 @@
 	margin: 0 auto;
 }
 
+.contatImg{
+  height: 100%;
+  border-radius: 100%;
+  width: auto;
+}
+
 .white-text{
 	padding: 10px;
 }
@@ -26,8 +32,11 @@
 }
 
 .imgCaveira2{
-	width: 10%; margin: 0 auto;
-	height: 10%;
+	 width: 10%;
+   height: 10% 
+     padding: 5px;
+  display: block;
+  margin: 0 auto;
 }
 #conteudo{
 	background-color: #1793A6;
@@ -240,6 +249,7 @@
 #foto4:hover  #comentario4{
       opacity: 1;
 }
+
 
 .timeline {
     list-style: none;
