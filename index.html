@@ -1,107 +1,345 @@
- <!DOCTYPE html>
-  	<html>
-  	<head>
-  		<title>Gustavo Costa</title>
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  		<link rel="stylesheet" type="text/css" href="css/styles.css">
-  	</head>
-  	<body id="conteudo">
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-  		<header>
-      <ul id="nav-small" class="top-nav fixed hide-on-large-only show-on-medium-and-down" style="background-color: #1793A6">
-        <li style="color: white;text-align: center"> <b>Curriculo-Gustavo Costa</b></li>
-          
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gustavo Costa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="css/ghpages-materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <script src="https://use.typekit.net/bkt6ydm.js"></script>
+    <script>
+        try{Typekit.load({ async: true });}catch(e){}
+    </script>
+</head>
+
+<body id="conteudo">
+    <script src="https://use.typekit.net/bkt6ydm.js"></script>
+    <script>
+        try{Typekit.load({ async: true });}catch(e){}
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <header>
+        <ul id="nav-small" class="top-nav fixed hide-on-large-only show-on-medium-and-down" style="background-color: white">
+            <li style="color: white;text-align: center"><img class="imgCaveira" style="width: 10%" src="css/img/skull-min.png"></li>
         </ul>
-      <ul id="nav-mobile" class="side-nav fixed">
-  				<li style="	padding: 10px;">
-					<img id="imgFoto" src="css/img/foto.jpg">
-				</li>
-				<li id="dados">
-					<p class="textoDados">
-						<b>Nome: Gustavo Costa Neves</b>
-					</p>
-					<p class="textoDados">
-						<b>Contato: (035)99155-7322</b>
-					</p>
-            <ul style="display: inline-flex;">
-              <a href="https://github.com/guhcostan" style="width:20%;"><li><img id="imgGit" src="css/img/GitHub-Mark.png" style="width: 100%"></li></a>
-              <li><b style="margin: auto">@Guhcostan</b></li>
-            </ul>
-            <ul style="display: inline-flex;">
-              <a href="https://faceboo.com/gustavo.costaneves" style="width:20%; padding: 6px;"><li><img id="imgFace" src="css/img/faceLogo.jpg" style="width: 100%"></li></a>
-              <li><b style="margin: auto">/gustavo.costaneves</b></li>
-            </ul>
-            <ul style="display: inline-flex;">
-              <a href="https://www.instagram.com/guhcostan/" style="width:20%;"><li><img id="imgFace" src="css/img/instaLogo.png" style="width: 100%"></li></a>
-              <li><b style="margin: auto">@guhcostan</b></li>
-            </ul>
-				</li>
-			</ul>
-  		</header>
-  		<main>
-  			<div class="container">
-  				<div class="row">
-            <div class="col s12 m12 l12">
-              <div>
-                <p style="text-align: center; color: #1793A6"><--------------------------------------------------------------></p>
-                <p style="text-align: center;"><b>Conhecimentos de programação</b></p>
-                <p style="text-align: center; color: #1793A6"><--------------------------------------------------------------></p>
-                <div style="background-color: white; padding:10px; border-radius: 20px 20px; box-shadow: 0px 0px 10px gray">
-                  <p>IDEs : Eclipse, Visual Studio, Android Studio, Codeblocks </p>
-                  <p>Sistemas Operacionais : Windows XP, 7, 8, 10, Linux(Ubuntu) </p>
-                  <p>Linguagens : Java, C++, C# (básico) , C</p>
-                  <p>Bancos de Dados : FirebaseDatabase, SQLite </p>
+        <ul id="nav-mobile" class="side-nav fixed">
+            <li style=" padding: 10px;">
+                <img class="imgCaveira" src="css/img/skull-min.png">
+                <img id="imgFoto" src="css/img/foto-min.jpg">
+                <img class="imgCaveira" src="css/img/skull2-min.png">
+            </li>
+            <li class="dados">
+                <p class="textoDados"><b>Nome: Gustavo Costa Neves</b></p>
+                <p class="textoDados">04/07/1997</p>
+                <p id="textoSobre"><b>Sobre: </b>Estudante do 5º período do curso Ciência da computação pela Universidade Federal de Lavras, apaixonado por programação e desenvolvimento.</p>
+            </li>
+            <li class="dados">
+                <div class="container" style="width: 100%">
+                    <div class="row">
+                        <div class="col s12 m12 l12" style="height: 60px">
+                            <p class="textoDados">
+                                <b>Contato: (035)99155-7322</b>
+                            </p>
+                        </div>
+                        <div class="col s12 m12 l12" style="height: 60px">
+                            <div class="col s3 m3 l3" style="height: 100%; padding: 0px;">
+                                <img class="contatImg" src="css/img/gitLogo-min.jpg">
+                            </div>
+                            <div class="col s9 m9 l9" style="height: 100%;">
+                                <b style="margin: auto">/guhcostan</b>
+                            </div>
+                        </div>
+                        <div class="col s12 m12 l12" style="height: 60px">
+                            <div class="col s3 m3 l3" style="height: 100%; padding: 0px;">
+                                <img class="contatImg" src="css/img/faceLogo-min.jpg">
+                            </div>
+                            </a>
+                            <div class="col s9 m9 l9" style="height: 100%;">
+                                <b style="margin: auto">/gustavo.costaneves</b>
+                            </div>
+                        </div>
+                        <div class="col s12 m12 l12" style="height: 60px">
+                            <div class="col s3 m3 l3" style="height: 100%; padding: 0px;">
+                                <img class="contatImg" src="css/img/instaLogo-min.jpg">
+                            </div>
+                            <div class="col s9 m9 l9" style="height: 100%;"><b style="margin: auto">@guhcostan</b></div>
+                        </div>
+                    </div>
                 </div>
-                <p style="text-align: center; color: #1793A6"><--------------------------------------------------------------></p>
-              </div>
-              <div>
-                <p style="text-align: center"><b>Idiomas dominados</b></p>
-                <p style="text-align: center; color: #1793A6"><--------------------------------------------------------------></p>
-                <div style="background-color: white; padding:10px; border-radius: 20px 20px; box-shadow: 0px 0px 10px gray">
-                  <p>Inglês: avançado</p>
-                  <p>Espanhol: básico </p>
-                  <p>Português: fluente</p>  
-                </div>
-                <p style="text-align: center; color: #1793A6"><--------------------------------------------------------------></p>
-              </div>
-              <div>
-                <p style="text-align: center"><b>Atividades extracurriculares</b></p>
-                <p style="text-align: center; color: #1793A6"><--------------------------------------------------------------></p>
-                <div style="background-color: white; padding:10px; border-radius: 20px 20px; box-shadow: 0px 0px 10px gray">
-                  <p>Curso de Desenvolvimento Android - (2017 - 40h) - Udemy</p>
-                  <p>Minicurso sobre Android Studio - (2016 - 4h) - UFLA </p>
-                  <p>Desenvolvendo Aplicações Web Multiplataforma com ASP.NET - (2017 – 3h) - UFLA</p>
-                  <p>Curso de informática básica - (2012 – 1 ano) - ICC varginha</p>
-                </div>
-                <p style="text-align: center; color: #1793A6"><--------------------------------------------------------------></p>
-              </div>
-              <div>
-                <p style="text-align: center"><b>Conhecimento em Informática</b></p>
-                <p style="text-align: center; color: #1793A6"><--------------------------------------------------------------></p>
-                <div style="background-color: white; padding:10px; border-radius: 20px 20px; box-shadow: 0px 0px 10px gray">
-                  <p>Photoshop: Avançado</p>
-                  <p>Sony Vegas: Básico</p>
-                  <p>Pacote Office: Básico</p>
-                </div>
-                <p style="text-align: center; color: #1793A6"><--------------------------------------------------------------></p>
-              </div>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div id="contatoDiv" class="hide-on-large-only show-on-medium-and-down">
+            <div class="parallax-container" style="height: 250px  ">
+                <div class="parallax"><img class="parallaxImg" src="css/img/parallax1.jpg"></div>
             </div>
-  				</div>
-  			</div>
-	  	</main>	  
-    <footer>
-      <div class="content hide-on-large-only show-on-medium-and-down" id="rodape2">
-        <div class="row">
-          <div class="col s3 m3 l3">
-            <img src="css/img/foto.jpg" style="width: 40%; border-radius: 30px 30px;">
-          </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <div style="border-radius: 20px 20px;padding: 10px;border:5px solid #e5e8e9;box-shadow: 0px 0px 10px; background-image: url('css/img/background-min.png');">
+                            <ul>
+                                <li style=" padding: 10px;">
+                                    <img id="imgFoto" src="css/img/foto-min.jpg">
+                                </li>
+                                <li class="dados">
+                                    <p class="textoDados"><b>Nome: Gustavo Costa Neves</b></p>
+                                    <p class="textoDados">04/07/1997</p>
+                                    <p id="textoSobre"><b>Sobre: </b>Estudante do 5º período do curso Ciência da computação pela Universidade Federal de Lavras, apaixonado por programação e desenvolvimento.</p>
+                                </li>
+                                <li class="dados">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col s12 m12 l12" style="height: 60px">
+                                                <p class="textoDados">
+                                                    <b>Contato: (035)99155-7322</b>
+                                                </p>
+                                            </div>
+                                            <div class="col s12 m12 l12" style="height: 60px">
+                                                <div class="col s3 m3 l3" style="height: 100%; padding: 0px;">
+                                                    <img class="contatImg" src="css/img/gitLogo-min.jpg">
+                                                </div>
+                                                <div class="col s9 m9 l9" style="height: 100%;">
+                                                    <b style="margin: auto">/guhcostan</b>
+                                                </div>
+                                            </div>
+                                            <div class="col s12 m12 l12" style="height: 60px">
+                                                <div class="col s3 m3 l3" style="height: 100%; padding: 0px;">
+                                                    <img class="contatImg" src="css/img/faceLogo-min.jpg">
+                                                </div>
+                                                </a>
+                                                <div class="col s9 m9 l9" style="height: 100%;">
+                                                    <b style="margin: auto">/gustavo.costaneves</b>
+                                                </div>
+                                            </div>
+                                            <div class="col s12 m12 l12" style="height: 60px">
+                                                <div class="col s3 m3 l3" style="height: 100%; padding: 0px;">
+                                                    <img class="contatImg" src="css/img/instaLogo-min.jpg">
+                                                </div>
+                                                <div class="col s9 m9 l9" style="height: 100%;"><b style="margin: auto">@guhcostan</b></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="parallax-container" style="height: 250px">
+            <div class="parallax"><img src="css/img/parallax2.jpg"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <div style="border-radius: 20px 20px;padding: 10px;border:5px solid #e5e8e9;box-shadow: 0px 0px 10px; background-image: url('css/img/background-min.png');">
+                        <div class="row" style="background-color: unset; border-radius: 20px 20px;">
+                            <div class="col s12">
+                                <ul class="tabs">
+                                    <li class="tab col s4">
+                                        <a href="#test1">
+                                            <p class="textoObj">A curto prazo</p>
+                                        </a>
+                                    </li>
+                                    <li class="tab col s4">
+                                        <a href="#test2">
+                                            <p class="textoObj">A médio prazo</p>
+                                        </a>
+                                    </li>
+                                    <li class="tab col s4">
+                                        <a href="#test3">
+                                            <p class="textoObj">A longo prazo</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div style="height: 100px"></div>
+                            <div id="test1" class="col s12">
+                                <p class="textoObj">- Adquirir o conhecimento necessário sobre programação na faculdade e estágios para chegar no mercado de trabalho preparado.</p>
+                                <p class="textoObj">- Concluir meu curso de graduação em Ciência da computação.</p>
+                            </div>
+                            <div id="test2" class="col s12">
+                                <p class="textoObj">- Conseguir um emprego que me traga satisfação profissional na área de minha preferência.</p>
+                                <p class="textoObj">- Obter uma renda que satisfaça minhas necessidades pessoais e me proporcione momentos de lazer.</p>
+                            </div>
+                            <div id="test3" class="col s12">
+                                <p class="textoObj">- Me desenvolver na área a tal ponto me tornar um profissional de renome.</p>
+                                <p class="textoObj">- Criar algo importante a nível de estar em livros de história.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parallax-container" style="height: 250px">
+            <div class="parallax"><img src="css/img/parallax3.jpg"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <div style="border-radius: 20px 20px;padding: 10px;border:5px solid #e5e8e9;box-shadow: 0px 0px 10px; background-image: url('css/img/background-min.png');">
+                        <div class="carousel carousel-slider">
+                            <a class="carousel-item" href="#one!"><img src="css/img/curiosidades/corona-min.jpg"></a>
+                            <a class="carousel-item" href="#two!"><img src="css/img/curiosidades/cachorro-min.jpg"></a>
+                            <a class="carousel-item" href="#three!"><img src="css/img/curiosidades/barba-min.jpg"></a>
+                            <a class="carousel-item" href="#four!"><img src="css/img/curiosidades/oculos-min.jpg"></a>
+                            <a class="carousel-item" href="#five!"><img src="css/img/curiosidades/china-min.jpg"></a>
+                            <a class="carousel-item" href="#six!"><img src="css/img/curiosidades/drone-min.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parallax-container" style="height: 250px">
+            <div class="parallax"><img src="css/img/parallax4.jpg"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12" style="border-radius: 20px 20px;padding: 10px;border:5px solid #e5e8e9;box-shadow: 0px 0px 10px; background-image: url('css/img/background-min.png');">
+                    <div class="col s6 m6 l3">
+                        <div id="foto1">
+                            <img src="css/img/android-min.png" style="width: 100%;" />
+                            <div id="comentario1">Udemy: Curso completo de desenvolvimento Android</div>
+                            <div style="height: 50px"></div>
+                        </div>
+                    </div>
+                    <div class="col s6 m6 l3">
+                        <div id="foto2">
+                            <img src="css/img/html-min.png" style="width: 100%;" />
+                            <div id="comentario2">Udemy: Curso completo de Desenvolvimento Web - Crie 6 projetos</div>
+                            <div style="height: 50px"></div>
+                        </div>
+                    </div>
+                    <div class="col s6 m6 l3">
+                        <div id="foto3">
+                            <img src="css/img/css3-min.png" style="width: 100%" />
+                            <div id="comentario3">Udemy: Curso completo de Desenvolvimento Web - Crie 6 projetos</div>
+                            <div style="height: 50px"></div>
+                        </div>
+                    </div>
+                    <div class="col s6 m6 l3">
+                        <div id="foto4">
+                            <img src="css/img/js3-min.png" style="width: 100%" />
+                            <div id="comentario4">Udemy: Curso completo de Desenvolvimento Web - Crie 6 projetos</div>
+                        </div>
+                        <div style="height: 50px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parallax-container" style="height: 250px">
+            <div class="parallax"><img src="css/img/parallax5-min.jpg"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <div style="border-radius: 20px 20px;padding: 10px;border:5px solid #e5e8e9;box-shadow: 0px 0px 10px; background-image: url('css/img/background-min.png');">
+                        <div class="container" style="padding: 0px; width: 95%">
+                            <ul class="timeline">
+                                <li>
+                                    <div class="timeline-badge"><img class="timeline-icon" src="css/img/Experiencia/ufla-min.png"></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Universidade Federal de Lavras</h4>
+                                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2015</small></p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Ingressei no curso de Ciência da computação na universidade federal de Lavras, onde desenvolvi minhas habilidades em programação e desenvolvimento de software. Consegui fazer bastante amigos e graças a isso, 
+desenvolver um ótimo trabalho em equipe. Dentro da faculdade tive diversos trabalhos e atividades para exercício dos meus conhecimentos.
+</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge"><img class="timeline-icon" src="css/img/Experiencia/compJunior-min.png"></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">CompJunior</h4>
+                                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2017</small></p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Inscrevi no processo seletivo da empresa CompJunior, situada dentro da UFLA, onde tive um minicurso sobre web design e web development, desenvolvendo uma nova paixão, o desenvolvimento web. Tive como atividade
+avaliativa a construção deste site em questão, o que foi ótimo pra estudar e aplicar o conhecimento em algo.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="timeline-badge"><img class="timeline-icon" src="css/img/Experiencia/lemaf-min.png"></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Lemaf</h4>
+                                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2017</small></p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Durante uma das iniciativas da compJunior, o Seti(Semana de tecnologia da informação), foi apresentada a empresa Lemaf, a qual anunciou vagas para bolsa de iniciação científica, graças a isso, consegui passar
+no processo avaliativo. Dentro desta empresa, vários desafios me foram apresentados, com os quais estou aprendendo muito sobre trabalho em equipe, programação e até mesmo burocracias relativas a propriedades
+rurais.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge"><img class="timeline-icon" src="css/img/Experiencia/etc-min.png"></div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Under construction...</h4>
+                                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2018</small></p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ultimo">
+        </div>
+    </main>
+    <footer>
+        <div class="content hide-on-large-only show-on-medium-and-down">
+            <div class="row" id="rodape2">
+                <img class="imgCaveira2" style="" src="css/img/skull2-min.png">
+            </div>
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    </body>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.parallax').parallax();
+          });
+    </script>
+    <script>
+        $('.carousel.carousel-slider').carousel({fullWidth: true});
+    </script>
+    <script>
+        window.onload = function(){ // quando o HTML carregar, faça
+           var img = document.getElementById('eimgFoto'); // pega o elemento pelo ID
+           var posicaoInicial = img.getBoundingClientRect();
+           document.onmousemove = function(){ // quando o mouse mover sobre o documento, faça
+                   var pX =  window.event.clientX/100 - 5;
+                   var pY =  window.event.clientY/100 - 5; // cria uma variável com a posição do eixo Y do mouse
+                   img.setAttribute("style", "position: relative;"); // defino o elemento que peguei acima com position e left
+                   img.style.top = pY + "px"; // a posição da imagem será sempre a posição do mouse menos altura da imagem dividido por 2
+                   img.style.left = pX + "px";
+           }; // fecha onmousemove
+          };
+    </script>
+    <script>
+        if (!window.jQuery) { document.write('<script src="bin/jquery-3.2.1.min.js"><\/script>'); }
+    </script>
+</body>
+
 </html>
